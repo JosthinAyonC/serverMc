@@ -1,0 +1,249 @@
+[18:02:17] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:02:19] [ServerMain/INFO]: Loaded 7 recipes
+[18:02:19] [Server thread/INFO]: Starting minecraft server version 1.20
+[18:02:19] [Server thread/INFO]: Loading properties
+[18:02:19] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[18:02:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:02:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:02:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[18:02:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[18:02:20] [Server thread/INFO]: Default game type: SURVIVAL
+[18:02:20] [Server thread/INFO]: Generating keypair
+[18:02:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:02:20] [Server thread/INFO]: Using default channel type
+[18:02:20] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:02:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:02:20] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:02:23] [Server thread/WARN]: Legacy plugin SimpleTpa v6.4 does not specify an api-version.
+[18:02:23] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[18:02:23] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[18:02:23] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@18ccd22a]
+[18:02:23] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[18:02:23] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.4.6
+[18:02:24] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.3.0
+[18:02:24] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v6.4
+[18:02:24] [Server thread/INFO]: [SimpleJail] Loading server plugin SimpleJail v2.3
+[18:02:24] [Server thread/INFO]: [Minepacks] Loading server plugin Minepacks v2.4.20.4
+[18:02:24] [Server thread/INFO]: [MeteoritesPro] Loading server plugin MeteoritesPro v1.5.3
+[18:02:24] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.40
+[18:02:24] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v3.10.3 b763
+[18:02:24] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[18:02:24] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9-beta1+2249-223b80c.
+[18:02:24] [Server thread/INFO]: [EntityClearer] Loading server plugin EntityClearer v1.15.3
+[18:02:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:02:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[18:02:24] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:02:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:02:25] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[18:02:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.40
+[18:02:26] [Server thread/INFO]:         __    
+[18:02:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.40
+[18:02:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:02:26] [Server thread/INFO]: 
+[18:02:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:02:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:02:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:02:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:02:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1707ms)
+[18:02:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:02:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:02:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:02:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:02:27] [Server thread/INFO]: Preparing level "world"
+[18:02:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:02:28] [Server thread/INFO]: Time elapsed: 279 ms
+[18:02:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:02:29] [Server thread/INFO]: Time elapsed: 40 ms
+[18:02:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:02:29] [Server thread/INFO]: Time elapsed: 26 ms
+[18:02:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:02:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:02:29] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:02:30] [Server thread/INFO]: [GSit] Enabling GSit v1.4.6
+[18:02:30] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:02:30] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[18:02:30] [Server thread/INFO]: [GSit] New version available: 1.4.9!
+[GSit] You are currently running version: 1.4.6!
+[GSit] Download the latest version at:
+[GSit] https://www.spigotmc.org/resources/62325
+[18:02:30] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.3.0
+[18:02:30] [Server thread/INFO]: Hooked to GSit
+[18:02:30] [Server thread/INFO]: [sleep-most] Hooked to GSit!
+[18:02:30] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4*
+[18:02:30] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[18:02:30] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 6.4
+[18:02:31] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:02:31] [Server thread/INFO]: [SimpleJail] Enabling SimpleJail v2.3
+[18:02:31] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.20.4
+[18:02:31] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[18:02:31] [Server thread/INFO]: [Minepacks] Config file successfully loaded.
+[18:02:31] [Server thread/INFO]: [Minepacks] Language file successfully loaded. Language: es_es  Author: ThatOverPowered & PostBoxRetinal
+[18:02:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[18:02:31] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[18:02:31] [Server thread/INFO]: [Minepacks] Item name language file successfully loaded. Language: english  Author: GeorgH93
+[18:02:31] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[18:02:31] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[18:02:31] [Server thread/INFO]: [Minepacks]  Minepacks has been enabled!  :) 
+[18:02:31] [Server thread/INFO]: [MeteoritesPro] Enabling MeteoritesPro v1.5.3
+[18:02:31] [Server thread/INFO]:          __
+[18:02:31] [Server thread/INFO]:    |\/| |__)   MeteoritesPro v1.5.3
+[18:02:31] [Server thread/INFO]:    |  | |        by OliPulse
+[18:02:31] [Server thread/INFO]:  
+[18:02:31] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v3.10.3 b763
+[18:02:31] [Server thread/INFO]: LevelledMobs: Using NMS version v1_20_R1 for nametag support
+[18:02:32] [Server thread/INFO]: LevelledMobs: File Loader: Loading files...
+[18:02:32] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'rules.yml'...
+[18:02:32] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'settings.yml'...
+[18:02:32] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'messages.yml'...
+[18:02:32] [Server thread/INFO]: LevelledMobs: Listeners: Registering event listeners...
+[18:02:32] [Server thread/INFO]: LevelledMobs: Commands: Registering commands...
+[18:02:32] [Server thread/INFO]: LevelledMobs: Running misc procedures
+[18:02:32] [Server thread/INFO]: LevelledMobs: Tasks: Starting async nametag auto update task...
+[18:02:32] [Server thread/INFO]: LevelledMobs: File Loader: Loading file 'customdrops.yml'...
+[18:02:32] [Server thread/INFO]: LevelledMobs: Start-up complete (took 401ms)
+[18:02:32] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[18:02:32] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.15+6463-5ca4dff.
+[18:02:32] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9-beta1+2249-223b80c.
+[18:02:32] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[18:02:32] [Server thread/INFO]: [EntityClearer] Enabling EntityClearer v1.15.3
+[18:02:32] [Server thread/INFO]: [EntityClearer] TPS monitoring activated.
+[18:02:33] [Server thread/INFO]: Running delayed init tasks
+[18:02:33] [Server thread/INFO]: Done (13.322s)! For help, type "help"
+[18:02:33] [Server thread/INFO]: Timings Reset
+[18:02:33] [Thread-10/INFO]: [Minepacks] Start downloading update: 2.4.21-release
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 10% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 20% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 30% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 40% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 50% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 60% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 70% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 80% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 90% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Downloading update: 100% of 1.60 MiB
+[18:02:33] [Thread-10/INFO]: [Minepacks] Finished updating.
+[18:04:14] [User Authenticator #0/INFO]: UUID of player ChustinENP is 0e1a0f95-81d8-3ecb-a92d-15e75c5d3ea5
+[18:04:16] [Server thread/INFO]: ChustinENP joined the game
+[18:04:16] [Server thread/INFO]: ChustinENP[/192.168.1.58:49293] logged in with entity id 237 at ([world]1828.115460386975, 119.0, -550.9786662530261)
+[18:05:54] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command true
+[18:05:54] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:05:54] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command true
+[18:06:11] [Server thread/INFO]: ChustinENP issued server command: /give ChustinENP minecraft:experience_bottle 120
+[18:06:11] [Server thread/INFO]: [ChustinENP: Gave 120 [Bottle o' Enchanting] to ChustinENP]
+[18:06:50] [Server thread/INFO]: ChustinENP issued server command: /give ChustinENP minecraft:experience_bottle 120
+[18:06:50] [Server thread/INFO]: [ChustinENP: Gave 120 [Bottle o' Enchanting] to ChustinENP]
+[18:06:51] [Server thread/INFO]: ChustinENP issued server command: /give ChustinENP minecraft:experience_bottle 120
+[18:06:51] [Server thread/INFO]: [ChustinENP: Gave 120 [Bottle o' Enchanting] to ChustinENP]
+[18:06:55] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command false
+[18:06:55] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:06:55] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command false
+[18:08:45] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command true
+[18:08:45] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:08:45] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command true
+[18:08:59] [Server thread/INFO]: ChustinENP issued server command: /give ChustinENP minecraft:ender_eye 20
+[18:08:59] [Server thread/INFO]: [ChustinENP: Gave 20 [Eye of Ender] to ChustinENP]
+[18:09:03] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command false
+[18:09:03] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:09:03] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command false
+[18:11:06] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command true
+[18:11:06] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:11:06] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command true
+[18:11:14] [Server thread/INFO]: ChustinENP issued server command: /give ChustinENP minecraft:obsidian 10
+[18:11:14] [Server thread/INFO]: [ChustinENP: Gave 10 [Obsidian] to ChustinENP]
+[18:11:19] [Server thread/INFO]: ChustinENP issued server command: /lp user ChustinENP permission set minecraft.command false
+[18:11:19] [luckperms-command-executor/INFO]: [LP] LOG > (ChustinENP) [U] (chustinenp)
+[18:11:19] [luckperms-command-executor/INFO]: [LP] LOG > permission set minecraft.command false
+[18:21:38] [User Authenticator #1/INFO]: UUID of player KrlosGarcia is 5a64f713-f4e2-3dc1-b300-d5c6d2aed17c
+[18:21:39] [Server thread/INFO]: KrlosGarcia joined the game
+[18:21:39] [Server thread/INFO]: KrlosGarcia[/26.234.79.95:54895] logged in with entity id 8100 at ([world]1793.2112670077397, 118.0, -624.4470267145306)
+[18:24:21] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[18:24:23] [Server thread/INFO]: ChustinENP issued server command: /tpaccept
+[18:25:16] [Server thread/INFO]: ChustinENP has made the advancement [Eye Spy]
+[18:25:31] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[18:25:33] [Server thread/INFO]: ChustinENP issued server command: /tpaccept
+[18:25:33] [Server thread/INFO]: KrlosGarcia has made the advancement [Eye Spy]
+[18:27:32] [Server thread/INFO]: [MeteoritesPro] An Icy Meteorite has been sighted near X:354 Z:-446 !
+[18:44:03] [Server thread/INFO]: ChustinENP has made the advancement [The End?]
+[18:44:03] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[18:44:04] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[18:44:07] [Server thread/INFO]: KrlosGarcia has made the advancement [The End?]
+[18:50:59] [Server thread/INFO]: ChustinENP has reached the goal [The Next Generation]
+[18:52:09] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[18:52:12] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[18:52:19] [Server thread/INFO]: ChustinENP has made the advancement [Remote Getaway]
+[18:52:28] [Server thread/INFO]: KrlosGarcia has made the advancement [Remote Getaway]
+[18:52:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:45 Z:-2306 !
+[18:52:40] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[18:52:41] [Server thread/INFO]: ChustinENP issued server command: /tpaccept
+[18:59:14] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[18:59:15] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[19:00:36] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[19:00:36] [Server thread/INFO]: ChustinENP issued server command: /tpaccept
+[19:01:26] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[19:01:27] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[19:01:44] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[19:01:46] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[19:17:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:1072 Z:-268 !
+[19:39:20] [Server thread/INFO]: KrlosGarcia has made the advancement [The City at the End of the Game]
+[19:42:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-225 Z:1672 !
+[19:42:57] [Server thread/INFO]: ChustinENP has made the advancement [The City at the End of the Game]
+[19:48:46] [Server thread/INFO]: ChustinENP has reached the goal [Sky's the Limit]
+[19:49:29] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[19:49:32] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[20:00:17] [Server thread/INFO]: ChustinENP lost connection: Disconnected
+[20:00:17] [Server thread/INFO]: ChustinENP left the game
+[20:01:55] [User Authenticator #2/INFO]: UUID of player ChustinENP is 0e1a0f95-81d8-3ecb-a92d-15e75c5d3ea5
+[20:01:55] [Server thread/INFO]: ChustinENP joined the game
+[20:01:55] [Server thread/INFO]: ChustinENP[/26.78.57.196:51253] logged in with entity id 30490 at ([world_the_end]1673.4316781031082, 60.0, 744.3913491651017)
+[20:01:58] [Server thread/INFO]: ChustinENP lost connection: Disconnected
+[20:01:58] [Server thread/INFO]: ChustinENP left the game
+[20:03:17] [User Authenticator #3/INFO]: UUID of player ChustinENP is 0e1a0f95-81d8-3ecb-a92d-15e75c5d3ea5
+[20:03:17] [Server thread/INFO]: ChustinENP joined the game
+[20:03:17] [Server thread/INFO]: ChustinENP[/192.168.1.58:51301] logged in with entity id 30598 at ([world_the_end]1673.4316781031082, 60.0, 744.3913491651017)
+[20:03:47] [Server thread/INFO]: ChustinENP issued server command: /tpa Frankamp
+[20:04:12] [User Authenticator #3/INFO]: UUID of player Frankamp is ec0dcfa0-ea3f-33d4-951f-71ca4ac9726f
+[20:04:12] [Server thread/INFO]: Frankamp joined the game
+[20:04:12] [Server thread/INFO]: Frankamp[/26.101.152.154:50130] logged in with entity id 30732 at ([world]2591.139831055942, 63.0, 54.33357654934186)
+[20:04:14] [Server thread/INFO]: ChustinENP issued server command: /tpa Frankamp
+[20:04:18] [Server thread/INFO]: KrlosGarcia issued server command: /tpa Frankamp
+[20:04:33] [Server thread/INFO]: KrlosGarcia issued server command: /tpa Frankamp
+[20:04:52] [Server thread/INFO]: Frankamp issued server command: /tpaccept
+[20:04:55] [Server thread/INFO]: KrlosGarcia issued server command: /tpa Frankamp
+[20:05:03] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[20:07:23] [Server thread/INFO]: Frankamp issued server command: /tpaccept
+[20:07:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:-2479 Z:-63 !
+[20:15:47] [Server thread/INFO]: ChustinENP issued server command: /tpa KrlosGarcia
+[20:15:51] [Server thread/INFO]: KrlosGarcia issued server command: /tpaccept
+[20:18:51] [Server thread/INFO]: ChustinENP lost connection: Disconnected
+[20:18:51] [Server thread/INFO]: ChustinENP left the game
+[20:18:52] [User Authenticator #4/INFO]: UUID of player ChustinENP is 0e1a0f95-81d8-3ecb-a92d-15e75c5d3ea5
+[20:18:52] [Server thread/INFO]: ChustinENP joined the game
+[20:18:52] [Server thread/INFO]: ChustinENP[/192.168.1.58:63037] logged in with entity id 42174 at ([world_the_end]-849.7448746654769, 57.0, -1163.383253247116)
+[20:19:18] [Server thread/INFO]: KrlosGarcia issued server command: /tpa ChustinENP
+[20:19:19] [Server thread/INFO]: ChustinENP issued server command: /tpaccept
+[20:19:37] [Server thread/INFO]: ChustinENP issued server command: /tpa Frankamp
+[20:19:45] [Server thread/INFO]: Frankamp issued server command: /tpaccept
+[20:19:49] [Server thread/INFO]: ChustinENP lost connection: Disconnected
+[20:19:50] [Server thread/INFO]: ChustinENP left the game
+[20:20:30] [Server thread/INFO]: KrlosGarcia lost connection: Disconnected
+[20:20:30] [Server thread/INFO]: KrlosGarcia left the game
+[20:27:39] [Server thread/INFO]: Frankamp lost connection: Disconnected
+[20:27:39] [Server thread/INFO]: Frankamp left the game
+[20:32:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:1899 Z:2723 !
+[20:57:32] [Server thread/INFO]: [MeteoritesPro] A Fiery Meteorite has been sighted near X:2700 Z:1622 !
