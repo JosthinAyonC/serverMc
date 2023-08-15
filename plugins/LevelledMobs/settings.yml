@@ -127,7 +127,7 @@ player-levelling-relevel-min-time: 5s
 
 # ||  This setting determines how far away an entity can be
 # ||  for it to register under `%levelledmobs_mob-target%`.
-nametag-placeholder-maxblocks: 20
+nametag-placeholder-maxblocks: 30
 
 # ||  What conditions should a mob have in order for the
 # ||  LevelledMobs kill command to 'skip' it (not kill the mob)?

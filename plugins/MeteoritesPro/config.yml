@@ -15,14 +15,14 @@
 #Enable or disable the random falling of meteorites.
 enable-random-meteorites: true
 #The interval between random meteorites in seconds.
-random-meteorite-interval: 1500
+random-meteorite-interval: 1800
 #The name of the world you want random meteorites to fall in.
 random-meteorite-world: world
 #Use these 4 parameters to set the region you want the meteorites to possibly fall in.
-random-meteorite-max-spawn-x-coord: 3000
-random-meteorite-max-spawn-z-coord: 3000
-random-meteorite-min-spawn-x-coord: -3000
-random-meteorite-min-spawn-z-coord: -3000
+random-meteorite-max-spawn-x-coord: 5000
+random-meteorite-max-spawn-z-coord: 5000
+random-meteorite-min-spawn-x-coord: -5000
+random-meteorite-min-spawn-z-coord: -5000
 #The height (Y coordinate) where the random meteorites will spawn.
 #I recommend staying below build height limit 256. Meteorites disappear after a few seconds above the height limit.
 random-meteorite-spawn-height: 150
@@ -34,6 +34,7 @@ enable-worldguard-safe-zones: false
 worldguard-safe-zone-names:
   - 'spawn'
   - 'MyHouse'
+  - 'jail'
 #Enable this to protect ALL defined worldguard regions/zones.
 protect-all-worldguard-zones: false
 #This indicates the amount of blocks meteorites have to be away from the borders of your worldguard safe zones in order to be able to spawn. Use value 0 to disable the buffer.

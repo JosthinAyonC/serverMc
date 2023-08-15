@@ -19,7 +19,7 @@ sleep:
   world:
     enabled: true
     calculation-method: percentage
-    percentage-required: 0.5
+    percentage-required: 0.6
     players-required: 5
     mob-no-target: true
     use-exempt: false
@@ -41,23 +41,23 @@ sleep:
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
-    phantom-reset-audience: all
     dynamic-animation-speed: false
-    disable-daylight-cycle-gamerule: true
+    clock-animation: true
+    non-sleeping-sound: false
     insomnia-chance: 0.0
+    longer-night-duration: 0
+    non-sleeping-clock-animation: false
+    disable-daylight-cycle-gamerule: true
+    allow-sleep-cmd: true
+    insomnia-milk: false
     non-sleeping-title: false
     gsit-hook: false
-    allow-sleep-cmd: true
-    gsit-sleep: true
-    allow-kick: false
-    insomnia-milk: false
-    exempt-below-y: -1
-    longer-night-duration: 0
-    exempt-flying: false
-    non-sleeping-sound: false
-    non-sleeping-clock-animation: false
     skip-storm: true
-    clock-animation: true
+    allow-kick: false
+    exempt-flying: false
+    phantom-reset-audience: all
+    gsit-sleep: true
+    exempt-below-y: -1
   
   world2:
     enabled: false

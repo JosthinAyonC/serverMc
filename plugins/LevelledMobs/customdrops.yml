@@ -36,8 +36,8 @@ defaults:
   chance: 0.2
   use-chunk-kill-max: true
   amount: 1
-  minLevel: 1
-  maxLevel: 15
+  minLevel: -1
+  maxLevel: -1
   custommodeldata: -1
   nomultiplier: true
   nospawner: false

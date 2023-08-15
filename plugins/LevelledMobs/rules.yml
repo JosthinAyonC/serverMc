@@ -173,36 +173,32 @@ presets:
     name: 'Average-Challenge Multipliers'
     apply-settings:
       minLevel: 1
-      maxLevel: 25
+      maxLevel: 100
       multipliers:
         max-health: 5.0
-        movement-speed: 0.15
-        attack-damage: 2.25
-        ranged-attack-damage: 2.25
-        creeper-blast-damage: 0.75
+        movement-speed: 0.65
+        attack-damage: 7.0
+        ranged-attack-damage: 4.0
+        creeper-blast-damage: 5.5
+        follow-range: 0.5
         item-drop: 3.0
-        xp-drop: 5.0
+        xp-drop: 10.0
         #       Special Multipliers (0.0 Min - 1.0 Max)
-        armor-bonus: 0.2
-        armor-toughness: 0.15
-        ##   optional: use the stacked multiplier instead
-        # max-health: [ '4.25', 'STACKED' ]
-        # movement-speed: [ '0.002', 'STACKED' ]
-        # attack-damage: [ '0.25', 'STACKED' ]
-        # ranged-attack-damage: [ '0.25', 'STACKED' ]
-        # creeper-blast-damage: [ '0.03', 'STACKED' ]
-        # item-drop: [ '0.25', 'STACKED' ]
-        # xp-drop: [ '17.5', 'STACKED' ]
+        armor-bonus: 0.5
+        armor-toughness: 0.5
+        attack-knockback: 0.5
+        knockback-resistance: 0.5
+        zombie-spawn-reinforcements: 0.15
 
       tiered-coloring:
-        1-5: '&#22E76B' #Green
-        6-10: '&#528CFF' #Blue
-        11-15: '&#FFCD56' #Yellow
-        16-20: '&#F2003D' #Red
-        21-25: '&#B447FF' #Purple
+        1-19: '&#22E76B' #Green
+        20-39: '&#528CFF' #Blue
+        40-59: '&#B447FF' #Yellow
+        60-79: '&#F2003D' #Red
+        # 80-100: '&#FFCD56' #Purple
         default: '&#FFFFFF' #White
       health-indicator:
-        scale: 4
+        scale: 16
         max: 5
         merge: true
 
