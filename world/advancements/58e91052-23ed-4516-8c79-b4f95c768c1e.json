@@ -2963,6 +2963,24 @@
     },
     "done": true
   },
+  "aquaculture:recipes/tools/stone_fillet_knife": {
+    "criteria": {
+      "has_items": "2023-08-14 21:46:03 -0500"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_jar": {
+    "criteria": {
+      "has_item": "2023-08-14 21:53:46 -0500"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/oak_bridge_pier": {
+    "criteria": {
+      "has_planks": "2023-08-14 21:59:28 -0500"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/oak_log_bridge_middle": {
     "criteria": {
       "has_planks": "2023-08-14 21:59:49 -0500"
@@ -2981,21 +2999,33 @@
     },
     "done": true
   },
-  "mcwbridges:recipes/oak_bridge_pier": {
+  "aquaculture:recipes/tools/iron_fillet_knife": {
     "criteria": {
-      "has_planks": "2023-08-14 21:59:28 -0500"
+      "has_items": "2023-08-14 22:57:47 -0500"
     },
     "done": true
   },
-  "aquaculture:recipes/tools/stone_fillet_knife": {
+  "mcwbridges:recipes/iron_bridge_pier": {
     "criteria": {
-      "has_items": "2023-08-14 21:46:03 -0500"
+      "has_planks": "2023-08-14 22:57:47 -0500"
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/firefly_jar": {
+  "mcwbridges:recipes/iron_bridge": {
     "criteria": {
-      "has_item": "2023-08-14 21:53:46 -0500"
+      "has_planks": "2023-08-14 22:57:47 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/armored_quiver": {
+    "criteria": {
+      "has_ingots_iron": "2023-08-14 22:57:47 -0500"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/pliers": {
+    "criteria": {
+      "has_planks": "2023-08-14 22:57:47 -0500"
     },
     "done": true
   },

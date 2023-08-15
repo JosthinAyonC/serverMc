@@ -3434,13 +3434,13 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/diamond_fillet_knife": {
+  "skilltree:recipes/misc/assassin_necklace": {
     "criteria": {
-      "has_items": "2023-08-14 22:09:12 -0500"
+      "has_bone": "2023-08-14 21:43:32 -0500"
     },
     "done": true
   },
-  "skilltree:recipes/misc/assassin_necklace": {
+  "skilltree:recipes/combat/bone_quiver": {
     "criteria": {
       "has_bone": "2023-08-14 21:43:32 -0500"
     },
@@ -3452,21 +3452,105 @@
     },
     "done": true
   },
-  "skilltree:recipes/combat/diamond_quiver": {
-    "criteria": {
-      "has_gems_diamond": "2023-08-14 22:09:12 -0500"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/oak_bridge_pier": {
     "criteria": {
       "has_planks": "2023-08-14 21:57:08 -0500"
     },
     "done": true
   },
-  "skilltree:recipes/combat/bone_quiver": {
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
     "criteria": {
-      "has_bone": "2023-08-14 21:43:32 -0500"
+      "has_items": "2023-08-14 22:09:12 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/diamond_quiver": {
+    "criteria": {
+      "has_gems_diamond": "2023-08-14 22:09:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-08-14 22:42:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2023-08-14 22:42:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-08-14 22:42:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2023-08-14 22:42:52 -0500"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
+    "criteria": {
+      "has_backpack": "2023-08-14 22:51:03 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/golden_ring": {
+    "criteria": {
+      "has_nuggets_gold": "2023-08-14 22:55:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-08-14 22:55:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-08-14 22:55:14 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/simple_necklace": {
+    "criteria": {
+      "has_nuggets_gold": "2023-08-14 22:55:14 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/iron_ring": {
+    "criteria": {
+      "has_nuggets_iron": "2023-08-14 23:03:10 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/gilded_quiver": {
+    "criteria": {
+      "has_ingots_gold": "2023-08-14 23:26:40 -0500"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/gold_fillet_knife": {
+    "criteria": {
+      "has_items": "2023-08-14 23:26:40 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/banana": {
+    "criteria": {
+      "banana": "2023-08-14 23:34:47 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/falconry_hood": {
+    "criteria": {
+      "falconry_hood": "2023-08-14 23:41:34 -0500"
     },
     "done": true
   },
