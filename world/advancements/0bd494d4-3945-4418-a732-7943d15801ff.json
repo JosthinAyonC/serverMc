@@ -11,10 +11,12 @@
       "minecraft:mushroom_fields": "2023-08-14 22:01:09 -0500",
       "minecraft:taiga": "2023-08-13 18:51:42 -0500",
       "minecraft:deep_ocean": "2023-08-13 18:56:47 -0500",
+      "minecraft:eroded_badlands": "2023-08-15 17:27:37 -0500",
       "minecraft:frozen_river": "2023-08-13 01:22:47 -0500",
       "minecraft:birch_forest": "2023-08-12 12:53:23 -0500",
       "minecraft:bamboo_jungle": "2023-08-14 23:03:47 -0500",
       "minecraft:wooded_badlands": "2023-08-14 22:52:44 -0500",
+      "minecraft:badlands": "2023-08-15 17:27:29 -0500",
       "minecraft:beach": "2023-08-13 18:48:59 -0500",
       "minecraft:sparse_jungle": "2023-08-14 22:53:09 -0500",
       "minecraft:river": "2023-08-12 12:02:28 -0500",
@@ -35,6 +37,7 @@
       "minecraft:jungle": "2023-08-14 22:55:04 -0500",
       "minecraft:old_growth_spruce_taiga": "2023-08-13 20:39:00 -0500",
       "minecraft:snowy_beach": "2023-08-13 18:51:41 -0500",
+      "minecraft:warm_ocean": "2023-08-15 17:48:29 -0500",
       "minecraft:old_growth_birch_forest": "2023-08-13 20:45:58 -0500",
       "minecraft:meadow": "2023-08-13 21:08:01 -0500",
       "minecraft:windswept_gravelly_hills": "2023-08-12 23:52:04 -0500",
@@ -597,6 +600,7 @@
       "minecraft:skeleton": "2023-08-12 23:05:33 -0500",
       "minecraft:spider": "2023-08-12 22:41:47 -0500",
       "minecraft:creeper": "2023-08-12 23:10:54 -0500",
+      "minecraft:cave_spider": "2023-08-15 17:58:38 -0500",
       "minecraft:silverfish": "2023-08-13 21:32:26 -0500",
       "minecraft:zombie": "2023-08-12 12:40:21 -0500"
     },
@@ -1397,6 +1401,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2023-08-14 21:26:04 -0500",
+      "minecraft:nether_wastes": "2023-08-15 18:43:02 -0500",
       "minecraft:warped_forest": "2023-08-13 18:50:40 -0500"
     },
     "done": false
@@ -2713,11 +2718,15 @@
       "shrubland": "2023-08-14 22:16:33 -0500",
       "rocky_shrubland": "2023-08-14 23:06:23 -0500",
       "scrubland": "2023-08-14 22:42:46 -0500",
+      "lush_savanna": "2023-08-15 17:56:55 -0500",
       "old_growth_woodland": "2023-08-14 22:42:22 -0500",
       "orchard": "2023-08-14 22:03:41 -0500",
       "lavender_forest": "2023-08-14 22:03:42 -0500",
       "mediterranean_forest": "2023-08-14 22:43:03 -0500",
+      "spider_nest": "2023-08-15 17:58:18 -0500",
+      "dryland": "2023-08-15 17:52:40 -0500",
       "wasteland": "2023-08-14 22:50:20 -0500",
+      "lush_desert": "2023-08-15 17:49:39 -0500",
       "redwood_forest": "2023-08-14 22:11:22 -0500",
       "wasteland_steppe": "2023-08-14 22:50:42 -0500",
       "seasonal_orchard": "2023-08-14 22:03:06 -0500",
@@ -2775,9 +2784,69 @@
     },
     "done": true
   },
-  "skilltree:recipes/misc/golden_ring": {
+  "minecraft:recipes/building_blocks/glass": {
     "criteria": {
-      "has_nuggets_gold": "2023-08-14 23:15:18 -0500"
+      "has_smelts_to_glass": "2023-08-14 22:46:11 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/black_sandstone": {
+    "criteria": {
+      "has_sand": "2023-08-14 22:46:11 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_button": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_sign": {
+    "criteria": {
+      "has_redwood_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_fence": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_door": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_slab": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_stairs": {
+    "criteria": {
+      "has_planks": "2023-08-14 23:14:10 -0500"
     },
     "done": true
   },
@@ -2805,12 +2874,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2023-08-14 22:46:11 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {
       "has_gold_ingot": "2023-08-14 23:15:14 -0500"
@@ -2823,21 +2886,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2023-08-14 23:15:18 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-08-14 23:15:14 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/redwood_trapdoor": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
     },
     "done": true
   },
@@ -2847,87 +2898,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2023-08-14 23:15:18 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/redwood_button": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-08-14 23:15:14 -0500"
     },
     "done": true
   },
-  "biomesoplenty:recipes/decorations/redwood_sign": {
-    "criteria": {
-      "has_redwood_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/redwood_fence": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2023-08-14 23:15:14 -0500"
-    },
-    "done": true
-  },
-  "skilltree:recipes/misc/simple_necklace": {
-    "criteria": {
-      "has_nuggets_gold": "2023-08-14 23:15:18 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/jungle_bridge_pier": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:17:37 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/redwood_door": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/redwood_slab": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/black_sandstone": {
-    "criteria": {
-      "has_sand": "2023-08-14 22:46:11 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/redwood_stairs": {
-    "criteria": {
-      "has_planks": "2023-08-14 23:14:10 -0500"
     },
     "done": true
   },
@@ -2955,6 +2934,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-08-14 23:15:14 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/golden_ring": {
+    "criteria": {
+      "has_nuggets_gold": "2023-08-14 23:15:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-08-14 23:15:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-08-14 23:15:18 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/simple_necklace": {
+    "criteria": {
+      "has_nuggets_gold": "2023-08-14 23:15:18 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2023-08-14 23:15:47 -0500"
@@ -2967,9 +2976,183 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_leggings": {
+  "mcwbridges:recipes/jungle_bridge_pier": {
     "criteria": {
-      "has_gold_ingot": "2023-08-14 23:15:14 -0500"
+      "has_planks": "2023-08-14 23:17:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2023-08-15 17:31:01 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/silent_quiver": {
+    "criteria": {
+      "has_feather": "2023-08-15 17:33:58 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/traveler_necklace": {
+    "criteria": {
+      "has_feather": "2023-08-15 17:33:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2023-08-15 17:38:09 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_planks": {
+    "criteria": {
+      "has_logs": "2023-08-15 17:49:54 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_wood": {
+    "criteria": {
+      "has_log": "2023-08-15 17:49:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2023-08-15 18:02:55 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/assassin_necklace": {
+    "criteria": {
+      "has_bone": "2023-08-15 18:02:57 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/bone_quiver": {
+    "criteria": {
+      "has_bone": "2023-08-15 18:02:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2023-08-15 18:43:25 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/explosive_quiver": {
+    "criteria": {
+      "has_gunpowder": "2023-08-15 18:45:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-08-15 18:45:48 -0500"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skelewag": {
+    "criteria": {
+      "killed_by": "2023-08-15 18:42:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-08-15 18:45:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-08-15 18:45:47 -0500"
     },
     "done": true
   },

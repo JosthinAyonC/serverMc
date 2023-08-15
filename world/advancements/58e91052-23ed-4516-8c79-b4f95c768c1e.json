@@ -12,6 +12,7 @@
       "minecraft:frozen_river": "2023-08-12 13:38:09 -0500",
       "minecraft:birch_forest": "2023-08-12 13:26:34 -0500",
       "minecraft:windswept_hills": "2023-08-12 13:42:59 -0500",
+      "minecraft:badlands": "2023-08-15 18:33:40 -0500",
       "minecraft:beach": "2023-08-12 12:58:42 -0500",
       "minecraft:dark_forest": "2023-08-12 13:22:22 -0500",
       "minecraft:sparse_jungle": "2023-08-12 12:48:52 -0500",
@@ -412,9 +413,13 @@
     "criteria": {
       "minecraft:pillager": "2023-08-13 19:20:18 -0500",
       "minecraft:skeleton": "2023-08-12 16:54:00 -0500",
+      "minecraft:magma_cube": "2023-08-15 18:24:03 -0500",
       "minecraft:spider": "2023-08-12 17:00:37 -0500",
+      "minecraft:piglin_brute": "2023-08-15 18:22:08 -0500",
       "minecraft:creeper": "2023-08-13 17:25:14 -0500",
       "minecraft:slime": "2023-08-12 17:07:21 -0500",
+      "minecraft:phantom": "2023-08-15 16:11:14 -0500",
+      "minecraft:witch": "2023-08-15 16:08:33 -0500",
       "minecraft:piglin": "2023-08-13 21:23:19 -0500",
       "minecraft:enderman": "2023-08-12 17:13:49 -0500",
       "minecraft:silverfish": "2023-08-13 20:26:23 -0500",
@@ -3026,6 +3031,120 @@
   "mcwbridges:recipes/pliers": {
     "criteria": {
       "has_planks": "2023-08-14 22:57:47 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/misc/assassin_necklace": {
+    "criteria": {
+      "has_bone": "2023-08-15 16:07:35 -0500"
+    },
+    "done": true
+  },
+  "skilltree:recipes/combat/bone_quiver": {
+    "criteria": {
+      "has_bone": "2023-08-15 16:07:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2023-08-15 16:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2023-08-15 16:08:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2023-08-15 18:30:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-08-15 18:30:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "visceral_heap": "2023-08-15 18:21:52 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "visceral_heap": "2023-08-15 18:21:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-08-15 18:30:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2023-08-15 18:24:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2023-08-15 18:21:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-08-15 18:30:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2023-08-15 18:26:56 -0500"
     },
     "done": true
   },
